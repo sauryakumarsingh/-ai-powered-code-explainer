@@ -1,0 +1,16 @@
+body { font-family: system-ui, Arial, sans-serif; background:#f6f8fa; color:#111; }
+.container { max-width:900px; margin:32px auto; padding:24px; background:white; border-radius:8px; box-shadow:0 6px 18px rgba(0,0,0,0.06); }
+textarea { width:100%; font-family: monospace; font-size:13px; }
+label { display:block; margin-top:12px; font-weight:600; }
+.buttons { margin-top:12px; }
+button { padding:8px 12px; margin-right:8px; }
+.card { background:#fbfcfd; padding:12px; border-radius:6px; margin-bottom:12px; border:1px solid #eef2f5 }
+.meta { font-weight:700; margin-bottom:8px }
+.code, .optimized, .annotation pre { background:#0f1724; color:#d1d5db; padding:8px; border-radius:4px; overflow:auto }
+.annotations { margin-top:8px }
+.annotation { margin-bottom:8px; }
+.explanation { margin-top:8px; background:#fffbe6; padding:8px; border-radius:4px }
+
+.diff { background:#0b1220; color:#e6eef6; padding:8px; border-radius:4px; overflow:auto }
+.diff .removed { background:#2b0d0d; color:#ffc7c7 }
+.diff .added { background:#0b2b1b; color:#c7ffc9 }
